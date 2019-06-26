@@ -86,6 +86,8 @@ Or launch UI where you will be able to change icons and splash screens:
 ```
 framework7 generate-assets --ui
 ```
+<<<<<<< HEAD
+=======
 
 ## Documentation & Resources
 
@@ -99,3 +101,4 @@ framework7 generate-assets --ui
 
 Love Framework7? Support project by donating or pledging on patreon:
 https://patreon.com/vladimirkharlampidi
+>>>>>>> initial commit
