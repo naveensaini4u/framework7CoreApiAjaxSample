@@ -1,0 +1,40 @@
+<template>
+  <div class="page">
+    <div class="navbar">
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#" class="back link">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">{{userdata.firstName}} {{userdata.lastName}}</div>
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="block block-strong">
+        {{userdata.about}}
+      </div>
+      <div class="list links-list">
+        <ul>
+          {{#each user}}
+            <li><a class="external" target="_blank">{{title}}</a></li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+  export default {
+    data: function(){
+      return{
+        userdata: {
+          firstName: 'John',
+          lastName: 'Doe',
+          about: 'Hello, i am creator of Framework7! Hope you like it!',
+        },
+      }
+    }
+  }
+</script>
