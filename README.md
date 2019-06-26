@@ -86,19 +86,3 @@ Or launch UI where you will be able to change icons and splash screens:
 ```
 framework7 generate-assets --ui
 ```
-<<<<<<< HEAD
-=======
-
-## Documentation & Resources
-
-* [Framework7 Core Documentation](https://framework7.io/docs/)
-
-
-* [Framework7 Icons Reference](https://framework7.io/icons/)
-* [Community Forum](https://forum.framework7.io)
-
-## Support Framework7
-
-Love Framework7? Support project by donating or pledging on patreon:
-https://patreon.com/vladimirkharlampidi
->>>>>>> initial commit
